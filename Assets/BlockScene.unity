@@ -174,9 +174,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &428123092
@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 1168551643}
   - component: {fileID: 1168551642}
   - component: {fileID: 1168551646}
+  - component: {fileID: 1168551647}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -282,7 +283,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1168551646
 Rigidbody:
@@ -299,6 +300,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1168551647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168551641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386670117
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +323,7 @@ GameObject:
   - component: {fileID: 1386670119}
   - component: {fileID: 1386670118}
   - component: {fileID: 1386670122}
+  - component: {fileID: 1386670123}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -382,7 +395,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1386670122
 Rigidbody:
@@ -399,6 +412,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1386670123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386670117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1475163552
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +435,7 @@ GameObject:
   - component: {fileID: 1475163554}
   - component: {fileID: 1475163553}
   - component: {fileID: 1475163557}
+  - component: {fileID: 1475163558}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -482,7 +507,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1475163557
 Rigidbody:
@@ -499,6 +524,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1475163558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475163552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1625760285
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +547,7 @@ GameObject:
   - component: {fileID: 1625760287}
   - component: {fileID: 1625760286}
   - component: {fileID: 1625760290}
+  - component: {fileID: 1625760291}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -582,7 +619,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1625760290
 Rigidbody:
@@ -599,6 +636,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1625760291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625760285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1680830073
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +659,7 @@ GameObject:
   - component: {fileID: 1680830075}
   - component: {fileID: 1680830074}
   - component: {fileID: 1680830078}
+  - component: {fileID: 1680830079}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -682,7 +731,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1680830078
 Rigidbody:
@@ -699,6 +748,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1680830079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1680830073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1858866447
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +771,7 @@ GameObject:
   - component: {fileID: 1858866449}
   - component: {fileID: 1858866448}
   - component: {fileID: 1858866452}
+  - component: {fileID: 1858866453}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -782,7 +843,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1858866452
 Rigidbody:
@@ -799,6 +860,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1858866453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1858866447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a95dfce02546fc42a88687a9ae115fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019587271
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +999,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
